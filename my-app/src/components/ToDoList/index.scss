@@ -1,0 +1,71 @@
+@use "../../sass/variables" as *;
+
+.to-do-list {
+    ul {
+        width: 680px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 6px solid $white;
+        padding: 0 15px 40px 15px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        color: $white;
+        list-style: none;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #container {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__new-to-do {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    input, input:focus, input:active {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        height: 30px;
+    }
+    
+    input::placeholder,
+    input {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__new {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+        flex-grow: 1;
+        border: 1px solid red;
+
+        p {
+            border: 1px solid green;
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 25px;
+            font-weight: 400;
+            
+        }
+    }
+
+}
