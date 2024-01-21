@@ -115,6 +115,18 @@
             font-size: 25px;
         }
 
+        input {
+            color: #000;
+            border: 1px solid #000;
+            border-radius: $border-radius;
+            padding: 20px;
+        }
+
+        input:focus {
+            border: 1px solid #000;
+            box-shadow: 2px 4px 8px #00000026;
+        }
+
         div {
             display: flex;
             gap: 20px;
