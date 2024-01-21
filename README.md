@@ -13,6 +13,10 @@ Tive a chance de usar bastante o hook useState para fazer manipulações, ainda 
 O uso do metodo map() para percorrer um array também foi preciso, assim como condicional ternario para manipular quando o modal do delete ou do editar tem que aparecer.
 
 
+## Deploy
+
+Para ver o deploy do projeto é só clicar no link [Deploy To-Do List](https://desafio-3-b9g2oj2j2-roberto-cs-projects.vercel.app/)
+Espero que gostem 😁
 
 
 ## Toda a parte que da funcionalidade está no ToDoList.jsx
